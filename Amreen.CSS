@@ -1,0 +1,205 @@
+Based on the provided HTML code, I'll create a CSS code to style the portfolio website. Here's the CSS code:
+
+/* Global Styles */
+
+* {
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+body {
+body 
+{
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+  color: #333;
+
+  background-color: #f9f9f9;
+
+}
+
+/* Navbar Styles */
+
+.navbar {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 1rem;
+text-align: center;
+
+  position: sticky;
+
+  top: 0;
+
+}
+
+.navbar ul 
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+display: flex;
+
+  justify-content: space-between;
+
+}
+
+.navbar li {
+
+  margin-right: 20px;
+
+}
+
+.navbar a {
+
+  color: #fff;
+
+  text-decoration: none;
+text-decoration: none;
+
+}
+
+.navbar a:hover {
+
+  color: #ccc;
+
+}
+
+/* Hero Section Styles */
+
+.hero {
+
+  background-image: linear-gradient(to bottom, #4CAF50, #8BC34A);
+
+  height: 100vh;display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: #fff;
+
+}
+
+.hero-content {
+
+  text-align: center;
+
+}
+
+.hero h1 {font-size: 48px;
+
+  margin-bottom: 10px;
+
+}
+
+.hero p {
+
+  font-size: 18px;
+
+  margin-bottom: 20px;
+
+}
+
+.btn {
+
+  background-color: #333;
+
+  color: #fff;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  font-size: 16px;cursor: pointer;
+
+  text-decoration: none;
+
+}
+
+.btn:hover {
+
+  background-color: #444;
+
+}
+
+/* About Section Styles */
+
+.about {
+
+  padding: 50px;
+
+  text-align: center;text-align: center;
+
+}
+
+.about-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+.about img {
+
+  width: 100px;
+
+  height: 100px;
+
+  border-radius: 50%;
+
+  margin-bottom: 20px;
+
+}
+
+/* Project Section Styles */
+#contact-form {
+  padding: 10px 20px;
+contact-form input, #contact-form textarea {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 20px;
+
+  border: 1px solid #ccc;;
+
+}
+
+#contact-form button[type="submit"] {
+
+  background-color: #333;
+
+  color: #fff;
+
+
+  padding: 10px 20px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+#contact-form button[type="submit"]:hover {
+
+  background-color: #444;
+
+}
+
+This CSS code adds basic styling to the portfolio website, including layout, colors, and typography. You can customize it further to fit your needs. Also, don't forget to correct the HTML code by replacing `mete` with `meta` and `initiai-scale` with `initial-scale`.
