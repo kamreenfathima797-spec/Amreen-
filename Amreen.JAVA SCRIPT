@@ -1,0 +1,65 @@
+Based on the provided HTML code, I'll create a basic JavaScript code to add interactivity to the portfolio website. Here's the JavaScript code:
+
+// Menu Toggle Functionality
+
+const menuToggle = document.getElementById('menu-toggle');
+
+const navLinks = document.getElementById('nav-links');
+
+menuToggle.addEventListener('click', () => {
+
+  navLinks.classList.toggle('active');
+
+});
+
+// Smooth Scrolling
+
+const links = document.querySelectorAll('a[href^="#"]');
+
+links.forEach((link) => {
+
+  link.addEventListener('click', (e) => {
+
+    e.preventDefault();
+
+    const targetId = link.getAttribute('href');
+
+    const targetElement = document.querySelector(targetId);
+
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+
+  });
+targetElement.scrollIntoView({ behavior: 'smooth' });
+
+  });
+
+});
+
+// Form Submission Handling
+
+const contactForm = document.getElementById('contact-form');
+
+contactForm.addEventListener('submit', (e) => {
+
+  e.preventDefault();
+
+  const name = document.getElementById('name').value;
+
+  const email = document.getElementById('email').value;
+
+  const message = document.getElementById('message').value;
+
+  console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+ logic here
+
+});
+
+This JavaScript code adds the following functionality:
+
+1. Menu toggle functionality: Toggles the navigation links on smaller screens.
+
+2. Smooth scrolling: Smoothly scrolls to the target section when a navigation link is clicked.
+
+3. Form submission handling: Handles form submission and logs the form data to the console. You can add your own form submission logic here.
+
+Make sure to correct the HTML code by replacing `mete` with `meta` and `initiai-scale` with `initial-scale`. Also, adjust the JavaScript code according to your needs.
